@@ -1,5 +1,5 @@
 
-use edjlib::{EdjLogger, HttpResponse, StatusCode};
+use edjlib::{EdjLogger, HttpRequest, HttpResponse, StatusCode};
 use std::str::FromStr;
 
 pub fn serverless(req: HttpRequest) -> HttpResponse {
