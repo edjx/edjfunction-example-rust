@@ -4,6 +4,6 @@ use edjlib::HttpRequest;
 #[no_mangle]
 pub fn init() {
     let req = HttpRequest::from_client(true);
-    let res =crate::serverless_function::serverless(req);
+    let res =crate::serverless_function::serverless(req.unwrap());
     res.send();
 }
