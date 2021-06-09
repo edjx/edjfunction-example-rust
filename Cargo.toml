@@ -1,7 +1,7 @@
 [package]
 name = "edjfunction-example-rust"
 version = "0.1.0"
-authors = []
+authors = ["EDJX <support@edjx.io>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -10,4 +10,4 @@ edition = "2018"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-edjlib = { path = "../../../rust-client-edjLibrary-stubs"}
+edjx = { path = "../../../rust-client-edjLibrary-stubs"}
