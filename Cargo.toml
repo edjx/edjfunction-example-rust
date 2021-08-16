@@ -10,4 +10,4 @@ edition = "2018"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-edjx = { path = "../../../rust-client-edjLibrary-stubs"}
+edjx = "0.1.0"
